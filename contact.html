@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #myBackground {
+            background-image: url('Images/MH_BG_01.jpg');
+            background-size: 100%;
+        }
+
+        #myHeadText {
+            font-family: monospace;
+            color: black;
+            -webkit-text-stroke: thin white;
+        }
+
+        #myDataText {
+            font-family: 'Courier New';
+            color: white;
+        }
+
+        #myHeader {
+            background-image: url('Images/header-middle-bg.png');
+            background-size: 100% 100%;
+        }
+
+        #myDataZone {
+            background-image: url('Images/BG_01.jpg');
+            background-size: cover;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONTACT</title>
+</head>
+
+<body id="myBackground">
+    <br>
+    <table align="center" width="80%">
+        <tbody>
+            <tr align="center">
+                <td style="background:rgb(255,158,0)">
+                    <h2>
+                        <a href="index.html">HOME PAGE</a>
+                    </h2>
+                </td>
+                <td style="background:rgb(255,158,0)">
+                    <h2>
+                        <a href="gallery.html">GALLERY</a>
+                    </h2>
+                </td>
+                <td style="background:rgb(255,158,0)">
+                    <h2>
+                        <a href="contact.html">CONTACT</a>
+                    </h2>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table width="80%" align="center" style="padding: 10px; border: 1px solid white">
+        <thead>
+            <th>
+                <h1 style="font-family:monospace; font-size:400%;" id="myHeadText">
+                    <b>Profile </b>
+                    <i><small>of</small></i>
+                    <b> Peerawich Dinprapa</b>
+                </h1>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table width="90%" align="center" style="padding: 5px; border: 1px solid back" id="myHeader">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <h1 style="font-size: 250%" id="myHeadText">Peerawich Dinprapa</h1>
+                                    <p style="font-size: 150%; color: white" id="myDataText">CPE Student</p>
+                                    <p style="font-size: 125%; color: white" id="myDataText">Tel. 087-575-6651</p>
+                                    <p style="font-size: 125%; color: white" id="myDataText">E-mail :
+                                        <a href="peerawich.dinp@gmail.com">peerawich.dinp@gmail.com</a></p>
+                                </th>
+                                <th>
+                                    <img alt="Profile Picture" src="Images/profile_pic.png"
+                                        style="width: 180px; height: 180px;">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <br>
+        <form action="#">
+            <table width="80%" align="center"
+                style="padding: 10px; border: 1px solid white; background-image: url('Images/Form.jpg'); background-size: 100% 100%;">
+                <tbody>
+                    <tr>
+                        <td id="myHeadText" style="font-size: 200%">
+                            <h3><label>SUBJECT : </label></h3>
+                        </td>
+                        <td>
+                            <input type="text" name="subject" value width="50px">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="myHeadText" style="font-size: 200%">
+                            <h3><label>Massage : </label></h3>
+                        </td>
+                        <td>
+                            <textarea name="msg" cols="75" rows="10"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="myHeadText" style="font-size: 200%">
+                            <h3><label>Name : </label></h3>
+                        </td>
+                        <td>
+                            <input type="text" name="name" value>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="myHeadText" style="font-size: 200%">
+                            <h3><label>Gender : </label></h3>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="myHeadText" style="font-size: 200%">
+                            <h3><label>Phone : </label></h3>
+                        </td>
+                        <td>
+                            <input type="tel" name="phone" value>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="myHeadText" style="font-size: 200%">
+                            <h3><label>Email : </label></h3>
+                        </td>
+                        <td>
+                            <input type="email" value>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="submit" value="submit">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+</body>
+
+</html>

@@ -1,17 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <style>
+        #myBackground {
+            background-image: url('Images/MH_BG_01.jpg');
+            background-size: 100%;
+        }
+
+        #myHeadText {
+            font-family: monospace;
+            color: black;
+            -webkit-text-stroke: thin white;
+        }
+
+        #myDataText {
+            font-family: 'Courier New';
+            color: white;
+        }
+
+        #myHeader {
+            background-image: url('Images/header-middle-bg.png');
+            background-size: 100% 100%;
+        }
+
+        #myDataZone {
+            background-image: url('Images/BG_01.jpg');
+            background-size: cover;
+        }
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HOME PAGE</title>
 </head>
-<body>
-    <h1>My Paragraph</h1>
-    <p>This is my first paragraph.</p>
 
+<body id="myBackground">
+    <br>
+    <table align="center" width="80%">
+        <tbody>
+            <tr align="center">
+                <td style="background:rgb(255,158,0)">
+                    <h2>
+                        <a href="index.html">HOME PAGE</a>
+                    </h2>
+                </td>
+                <td style="background:rgb(255,158,0)">
+                    <h2>
+                        <a href="gallery.html">GALLERY</a>
+                    </h2>
+                </td>
+                <td style="background:rgb(255,158,0)">
+                    <h2>
+                        <a href="contact.html">CONTACT</a>
+                    </h2>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table width="80%" align="center" style="padding: 10px; border: 1px solid white">
+        <thead>
+            <th>
+                <h1 style="font-family:monospace; font-size:400%;" id="myHeadText">
+                    <b>Profile </b>
+                    <i><small>of</small></i>
+                    <b> Peerawich Dinprapa</b>
+                </h1>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table width="90%" align="center" style="padding: 5px; border: 1px solid back" id="myHeader">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <h1 style="font-size: 250%" id="myHeadText">Peerawich Dinprapa</h1>
+                                    <p style="font-size: 150%; color: white" id="myDataText">CPE Student</p>
+                                    <p style="font-size: 125%; color: white" id="myDataText">Tel. 087-575-6651</p>
+                                    <p style="font-size: 125%; color: white" id="myDataText">E-mail :
+                                        <a href="peerawich.dinp@gmail.com">peerawich.dinp@gmail.com</a></p>
+                                </th>
+                                <th>
+                                    <img alt="Profile Picture" src="Images/profile_pic.png"
+                                        style="width: 180px; height: 180px;">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="90%" align="center" style="padding: 5px; border: 1px solid" id="myDataZone">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <h2 id="myHeadText">Profile</h2>
+                                </th>
+                                <td id="myDataText">A 2nd year CPE Student (2018). Interested in <i>Game Development ,
+                                        Illustration , Writting</i>. </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <h2 id="myHeadText">Skills</h2>
+                                </th>
+                                <td id="myDataText">
+                                    <ul>
+                                        <li><b>C/C++/C# Programing</b></li>
+                                        <p><i>Can do most of basics and some of advanced programings.</i></p>
+                                        <li><b>Game Designer</b></li>
+                                        <p><i>Can come up with many ideas for games.</i></p>
+                                        <li><b>Game Illustrator</b></li>
+                                        <p><i>Can do some characters' designs.</i></p>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <h2 id="myHeadText">Technical</h2>
+                                </th>
+                                <td id="myDataText">
+                                    <ul>
+                                        <li><b>C Programing</b></li>
+                                        <li><b>C++ Programing</b></li>
+                                        <li><b>C# Programing</b></li>
+                                        <li><b>Unity</b></li>
+                                        <li><b>Game Maker Studio</b></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <h2 id="myHeadText">Experience</h2>
+                                </th>
+                                <td id="myDataText">No experience in any works yet.</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <h2 id="myHeadText">Education</h2>
+                                </th>
+                                <td id="myDataText">
+                                    <ul>
+                                        <li>Graduated from <b>Bunyawat witthayalai School.</b>(M.1-M.6)</li>
+                                        <li>Now studying <b><i>Computer Engineering</i></b> at <b>Chiangmai
+                                                University</b></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
 
-    <div id="output"></div>
-    <script src="main.js"></script>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
 </body>
+
 </html>
